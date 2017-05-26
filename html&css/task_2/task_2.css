@@ -1,0 +1,118 @@
+body{
+	margin:0px;
+	background-color:#dedede;
+	font-size: 14px;
+}
+header{
+	background-color:#333;
+}
+article,aside{
+	margin: 20px;
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 2px 2px 2px #848484;
+    padding-bottom: 37px;
+}
+.text-indent{
+	text-indent: 2em;
+}
+article h3{
+	color: #717071;
+}
+article h3 + p {
+	color: #929597;
+}
+.bd_pic{
+	width: 132px;
+    height: 57px;
+}
+.nav_article{
+	float: right;
+	display: flex;
+	height: 62px;
+	align-items: center;
+	margin:0px;
+}
+.nav_article li a{
+	color: #fff;
+    text-decoration: none;
+    margin-right: 26px;
+}
+.sec_article_ul{
+	list-style-type: none;
+}
+.third_article{
+	padding-bottom: 37px;
+}
+figure{
+	width:110px;
+    padding: 8px 10px;
+    border: 1px solid #d6d6d6;
+}
+figure img{
+	width: 110px;
+	height: 100px;
+}
+figcaption{
+	text-align: center;
+    padding-bottom: 8px;
+    font-size: 13px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #d0d0d0;
+}
+thead{
+	background-color: #333333;
+    color: #fcfcfc;
+    text-align: left;
+    font-size: 13px;
+}
+th,td{
+	padding:3px;
+}
+tfoot{
+	background-color: #d0d0d0;
+	font-weight: bold;
+}
+aside h2{
+	border-left: 3px solid #dddddd;
+    padding-left: 10px;
+}
+.form_info{
+	display: inline-block;
+    width: 40%;
+    text-align: right;
+    margin-right: 5px;
+}
+.alert_me{
+	color: #cec8c2;
+    font-size: 13px;
+}
+input[type='submit']{
+	width: 100%;
+    background-color: #3355d0;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+}
+textarea{
+	vertical-align: top;
+    height: 100px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 16px;
+}
+footer{
+	margin: 0px;
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 12px;
+}
