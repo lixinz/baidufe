@@ -124,3 +124,134 @@ header + div {
     font-family: Microsoft YaHei;
     color: rgb(204, 204, 204);
 }
+article{
+	display: inline-block;
+}
+.article_1{
+	width: 226px;
+}
+.article_1 h2{
+	font-size: 16px;
+    color: #418c59;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.article_1 p{
+	font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    font-family: STSong;
+}
+.article_2{
+	width: 204px;
+    vertical-align: top;
+    margin: 0 24px;
+}
+.article_2 h2{
+	font-size: 16px;
+    color: #D2994F;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.article_2 p{
+	font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: rgba(35, 24, 21, 0.7);
+    line-height: 16px;
+}
+.article_3{
+    width: 154px;
+    vertical-align: top;
+}
+.article_3 h2{
+	font-size: 16px;
+    color: #CC7680;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.article_3 p{
+	font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: rgba(35, 24, 21, 0.7);
+    line-height: 16px;
+}
+.article_3 ul{
+	list-style-type: none;
+    padding: 0;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    color: rgba(35, 24, 21, 0.7);
+    line-height: 16px;
+    margin-top: 48px;
+}
+.article_3 li{
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+.article_3 li span{
+	font-size: 12px;
+    color: rgba(205, 74, 72, 0.7);
+    font-family: Microsoft YaHei;
+    font-style: italic;
+}
+.box_3_left{
+	width: 415px;
+    display: inline-block;
+    position: relative;
+}
+.box_3_left h2{
+	font-family: STHeiti;
+    font-size: 42px;
+    color: #11456b;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title_the{
+	font-family: STHeiti;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    color: #f5e327;
+    display: inline-block;
+    margin-right: 10px;
+}
+.c_title{
+	margin: 0;
+    font-family: STHeiti;
+    font-weight: bold;
+    font-size: 33px;
+    color: #11456b;
+    padding-bottom: 16px;
+    border-bottom: 2px solid;
+}
+.pra_1{
+	margin-bottom: 0px;
+	font-family: STSong;
+    /*line-height: 16px;*/
+    font-size: 12px;
+    color: #767777;
+}
+.pra_2{
+	margin-top: 0px;
+    text-indent: 2em;
+    margin-bottom: 0px;
+}
+.pra_3{
+	margin-top: 0px;
+    text-indent: 2em;
+}
+.pra_1:first-letter{
+	font-size: 70px;
+	color:#f5e327;
+	font-family: Microsoft YaHei;
+	float: left;
+}
