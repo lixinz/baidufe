@@ -13,3 +13,5 @@
 	* demo:https://lixinz.github.io/baidufe/html&css/task_4/task_4.html
 * task_5
 	* demo:https://lixinz.github.io/baidufe/html&css/task_5/task_5.html
+* task_6
+	* demo:https://lixinz.github.io/baidufe/html&css/task_6/task_6.html
