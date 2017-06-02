@@ -23,7 +23,7 @@ header + div {
 .url_logo{
 	font-size: 12px;
     color: #fff;
-    font-family: STHeiti;
+    font-family: "黑体",STHeiti;
     width: 110px;
     height: 61px;
     background-color: #d45d5c;
@@ -33,7 +33,7 @@ header + div {
 .date{
 	font-size: 12px;
     color: #d45d5c;
-    font-family: STHeiti;
+    font-family: "黑体",STHeiti;
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -71,7 +71,7 @@ header + div {
 	margin: 0px;
 }
 .pic1_info > p:nth-child(1){
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-variant: small-caps;
     text-transform: capitalize;
     font-size: 24px;
@@ -80,7 +80,7 @@ header + div {
     line-height: 40px;
 }
 .pic1_info > p:nth-child(2){
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-variant: small-caps;
     text-transform: capitalize;
     font-size: 24px;
@@ -92,13 +92,13 @@ header + div {
 	font-size: 12px;
     color: #676767;
     font-style: italic;
-    font-family: STKaiti;
+    font-family: '楷体',STKaiti;
     line-height: 10px;
 }
 .pic1_info > p:nth-child(4){
 	font-size: 116px;
     color: #75b86b;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-style: oblique;
     margin-left: -18px;
     margin-top: 10px;
@@ -106,7 +106,7 @@ header + div {
 .pic1_info > p:nth-child(5){
 	display: inline-block;
     font-size: 55px;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     color: #cc8091;
     margin-top: -15px;
 }
@@ -115,13 +115,13 @@ header + div {
 }
 .pic1_info div p:nth-child(1){
     font-size: 21px;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     color: #cc8091;
     margin-bottom: -10px;
 }
 .pic1_info div p:nth-child(2){
     font-size: 12px;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     color: rgb(204, 204, 204);
 }
 article{
@@ -133,7 +133,7 @@ article{
 .article_1 h2{
 	font-size: 16px;
     color: #418c59;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-weight: bold;
     text-decoration: underline;
     text-transform: capitalize;
@@ -142,7 +142,7 @@ article{
 	font-size: 12px;
     color: #767777;
     line-height: 16px;
-    font-family: STSong;
+    font-family: STSong,'宋体';
 }
 .article_2{
 	width: 204px;
@@ -152,13 +152,13 @@ article{
 .article_2 h2{
 	font-size: 16px;
     color: #D2994F;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-weight: bold;
     text-decoration: underline;
     text-transform: capitalize;
 }
 .article_2 p{
-	font-family: Microsoft YaHei;
+	font-family: 'Microsoft YaHei','微软雅黑';
     font-size: 12px;
     color: rgba(35, 24, 21, 0.7);
     line-height: 16px;
@@ -170,13 +170,13 @@ article{
 .article_3 h2{
 	font-size: 16px;
     color: #CC7680;
-    font-family: Microsoft YaHei;
+    font-family:'Microsoft YaHei','微软雅黑';
     font-weight: bold;
     text-decoration: underline;
     text-transform: capitalize;
 }
 .article_3 p{
-	font-family: Microsoft YaHei;
+	font-family: 'Microsoft YaHei','微软雅黑';
     font-size: 12px;
     color: rgba(35, 24, 21, 0.7);
     line-height: 16px;
@@ -184,7 +184,7 @@ article{
 .article_3 ul{
 	list-style-type: none;
     padding: 0;
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-size: 12px;
     color: rgba(35, 24, 21, 0.7);
     line-height: 16px;
@@ -197,7 +197,7 @@ article{
 .article_3 li span{
 	font-size: 12px;
     color: rgba(205, 74, 72, 0.7);
-    font-family: Microsoft YaHei;
+    font-family: 'Microsoft YaHei','微软雅黑';
     font-style: italic;
 }
 .box_3_left{
@@ -206,7 +206,7 @@ article{
     position: relative;
 }
 .box_3_left h2{
-	font-family: STHeiti;
+	font-family: STHeiti,'黑体';
     font-size: 42px;
     color: #11456b;
     font-weight: bold;
@@ -215,7 +215,7 @@ article{
     margin: 0;
 }
 .title_the{
-	font-family: STHeiti;
+	font-family: STHeiti,'黑体';
     font-size: 72px;
     text-transform: uppercase;
     font-weight: bold;
@@ -226,7 +226,7 @@ article{
 }
 .c_title{
 	margin: 0;
-    font-family: STHeiti;
+    font-family: STHeiti,'黑体';
     font-weight: bold;
     font-size: 33px;
     color: #11456b;
@@ -235,23 +235,195 @@ article{
 }
 .pra_1{
 	margin-bottom: 0px;
-	font-family: STSong;
-    /*line-height: 16px;*/
+	font-family: STSong,'宋体';
+    line-height: 16px;
     font-size: 12px;
     color: #767777;
 }
 .pra_2{
 	margin-top: 0px;
-    text-indent: 2em;
+    /*text-indent: 2em;*/
     margin-bottom: 0px;
+    font-family: STSong,'宋体';
+    line-height: 16px;
+    font-size: 12px;
+    color: #767777;
 }
 .pra_3{
 	margin-top: 0px;
+	font-family: STSong,'宋体';
+    line-height: 16px;
+    font-size: 12px;
     text-indent: 2em;
+    color: #767777;
+    margin-bottom: 0px;
 }
 .pra_1:first-letter{
 	font-size: 70px;
 	color:#f5e327;
-	font-family: Microsoft YaHei;
+	font-family: 'Microsoft YaHei','微软雅黑';
 	float: left;
+	line-height: 70px;
+}
+.pic_2{
+	float: right;
+}
+.box_3_right{
+	display: inline-block;
+    width: 458px;
+    margin-left: 12px;
+    vertical-align: top;
+}
+.pic3_div{
+	position: relative;
+}
+.pic3_div > div{
+	width: 458px;
+    height: 61px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 6px;
+}
+.pic3_div h3{
+	position: relative;
+    margin: 0px;
+    margin-left: 35px;
+    line-height: 61px;
+    margin-left: 50px;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 61px;
+    color: #fff;
+    font-family: 'Microsoft YaHei','微软雅黑';
+    font-weight: normal;
+}
+.pic3_div h3 span{
+	font-size: 12px;
+    color: #72b16a;
+    font-style: italic;
+    line-height: 140%;
+    margin-left: 8px;
+}
+.pic3_div > div:before{
+	content:'';
+    display: inline-block;
+    border-left: 3px solid #72b16a;
+    border-bottom: 44px solid #72b16a;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+.pic3_div + div {
+	height: 318px;
+    background: #eeeed6;
+    margin-top: 25px;
+}
+.pic3_div + div ul{
+	list-style-type: none;
+	height: 157px;
+	color: #5a5b5b;
+    line-height: 36px;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: STSong,'宋体';
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+.pic3_div + div ul li:before{
+	content:'';
+    display: inline-block;
+    border-bottom: 10px solid #11456c;
+    border-left: 6px solid rgba(238, 238, 214, 0);
+    border-right: 6px solid rgba(0, 128, 0, 0);
+}
+.pic3_div + div ul li span{
+	font-size: 12px;
+    color: #5a5b5b;
+    font-style: italic;
+}
+.box_3_bottom_l{
+	display: inline-block;
+    width: 260px;
+    height: 160px;
+    background-color: #d45d5c;
+}
+.zero_left{
+	font-size: 110px;
+    color: #fff;
+    font-family: 'Microsoft YaHei','微软雅黑';
+    margin-left: 10px;
+}
+.zero_left:after{
+	content: '';
+	display: inline-block;
+	border-bottom: 86px solid;
+    border-left: 2px solid;
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
+}
+.zero_right{
+	display: inline-block;
+    width: calc(100% - 90px);
+}
+.zero_right p{
+	margin:0;
+}
+.zero_right p:nth-child(1),.zero_right p:nth-child(2){
+	text-transform: uppercase;
+    font-size: 21px;
+    color: #fff;
+    font-style: italic;
+    font-family: STHeiti,'黑体';
+    line-height: 24px;
+}
+.zero_right p:nth-child(3){
+	font-size: 12px;
+    color: #fff;
+    line-height: 16px;
+    margin-right: 20px;
+    font-family: STHeiti,'黑体';
+}
+.box_3_bottom_l + div{
+	display: inline-block;
+    width: calc(100% - 280px);
+    margin-left: 10px;
+}
+.world{
+	font-size: 14px;
+    color: #5a5b5b;
+    font-style: italic;
+    font-family: STHeiti,'黑体';
+    line-height: 16px;
+    position: relative;
+    text-indent: 3em;
+}
+.ql,.qr{
+	font-size: 72px;
+    color: #d45d5c;
+    font-style: normal;
+    font-family: STHeiti,'黑体';
+    line-height: 16px;
+    vertical-align: bottom;
+}
+.ql{
+	position: absolute;
+    left: -44px;
+    top: 12px;
+    text-indent: 0;
+}
+.qr{
+	position: absolute;
+    bottom: -28px;
+    right: -23px;
+}
+.footer{
+	border-top: 1px solid #938e8c;
+    font-size: 12px;
+    text-align: right;
+    color: #d45d5c;
+    font-family: STHeiti,'黑体';
+    padding-top: 5px;
+
 }
