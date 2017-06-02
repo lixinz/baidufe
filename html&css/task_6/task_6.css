@@ -42,6 +42,10 @@ header + div {
 	display: inline-block;
 	position: relative;
 }
+.pic1_div img{
+	width: 641px;
+    height: 301px;
+}
 .pic1_div:before,.pic1_div:after{
 	content: "";
     display: inline-block;
@@ -267,6 +271,8 @@ article{
 }
 .pic_2{
 	float: right;
+	width: 167px;
+    height: 288px;
 }
 .box_3_right{
 	display: inline-block;
@@ -276,6 +282,10 @@ article{
 }
 .pic3_div{
 	position: relative;
+}
+.pic3_div img{
+	width: 458px;
+    height: 257px;
 }
 .pic3_div > div{
 	width: 458px;
