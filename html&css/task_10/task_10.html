@@ -2,8 +2,59 @@
 <html>
 <head>
 	<title>baidufe task_10</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin:0;
+		}
+		.div-1{
+			height: 120px;
+		}
+		.div-2{
+			height: 100px;
+		}
+		.div-3{
+			height: 40px;
+		}
+		.div-4{
+			height: 200px;
+			border:3px solid #0000ff;
+		}
+		.div-1,.div-2,.div-3,.div-4{
+			width: 150px;
+			flex-shrink: 0;
+			box-sizing: border-box;
+		}
+		.div-1,.div-2,.div-3{
+			border:3px solid #f00;
+		}
+		.parent{
+			padding:20px;
+			display: flex;
+    	justify-content: space-between;
+    	border: 1px solid #aaa;
+    	align-items: center;
+		}
+		@media (max-width: 640px) { 
+			.div-1,.div-2,.div-3{
+				order:2;
+			}
+			.parent{
+				align-items: flex-start;
+				flex-wrap: wrap;
+			}
+			.parent div{
+				margin-top: 20px;
+			}
+		}
+	</style>
 </head>
 <body>
-
+	<div class="parent">
+		<div class="div-1">1</div>
+		<div class="div-2">2</div>
+		<div class="div-3">3</div>
+		<div class="div-4">4</div>
+	</div>
 </body>
 </html>
