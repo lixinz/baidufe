@@ -4,6 +4,8 @@ body{
 header{
 	background-color: #228abf;
 	padding: 10px 0px;
+	position: relative;
+  height: 36px;
 }
 header > img{
 	margin-left: 50px;
@@ -18,10 +20,21 @@ header div:nth-child(3){
     right: 90px;
     font-size: 12px;
     color: #fff;
+    top: 50%;
+  	transform: translateY(-50%);
+}
+.login_div img{
+	width: 15px;
+	height: 16px;
+}
+.login_div img,.login_div span{
+	vertical-align: middle;
 }
 .search_input{
 	position: absolute;
 	right: 160px;
+	top: 50%;
+  transform: translateY(-50%);
 }
 .search_input input{
 	width: 260px;
@@ -53,7 +66,106 @@ header div:nth-child(3){
   right: -12px;
   z-index: 2;
 }
-.login_div img{
-	width: 15px;
-	height: 16px;
+nav{
+	width: 258px;
+	background-color: #2a2e3d;
+  overflow: hidden;
+  color:#657589;
+}
+nav > div:nth-child(1){
+	margin-top: 18px;
+ 	margin-left: 45px;
+ 	position: relative;
+}
+nav > div:nth-child(1):before{
+	content: '';
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	top: -5px;
+	left: -5px;
+}
+nav > div:nth-child(1) img{
+	border-radius: 50%;
+}
+nav > div:nth-child(1) p{
+	display: inline-block;
+  color: #e8e8e9;
+  font-size: 16px;
+  vertical-align: top;
+  margin-left: 18px;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  line-height: 16px;
+  transform: translateY(-25%);
+}
+nav > div:nth-child(2){
+	color: #657589;
+  margin-left: 62px;
+  position: relative;
+  margin-top: 24px;
+  font-size: 14px;
+}
+nav > div:nth-child(2) p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+nav > div:nth-child(2):before{
+	content: '';
+  display: inline-block;
+  position: absolute;
+  border-left: 2px solid;
+  border-bottom: 39px solid;
+  left: 58px;
+  top: 2px;
+}
+nav > div:nth-child(2) div{
+	display: inline-block;
+}
+.keep p:nth-child(1),.follower p:nth-child(1){
+	margin-bottom: 5px;
+  margin-top: 0px;
+}
+.keep p:nth-child(2),.follower p:nth-child(2){
+	margin-top: 5px;
+  margin-bottom: 0px;
+}
+.follower{
+	display: inline-block;
+  margin-left: 63px;
+}
+nav > div:nth-child(3),nav > div:nth-child(4),nav > div:nth-child(5),nav > div:nth-child(6),nav > div:nth-child(7),nav > div:nth-child(8){
+  font-size: 14px;
+  margin-left: 45px;
+  margin-top: 45px;
+  margin-bottom: 37px;
+}
+nav > div:nth-child(3) i,nav > div:nth-child(4) i,nav > div:nth-child(5) i,nav > div:nth-child(6) i,nav > div:nth-child(7) i,nav > div:nth-child(8) i{
+  width: 12px;
+  height: 11px;
+  display: inline-block;
+  margin-right: 13px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+nav > div:nth-child(3) i{
+	background-image: url('../../image/ico-bchart.png');
+}
+nav > div:nth-child(4) i{
+	background-image: url('../../image/ico-star.png');
+}
+nav > div:nth-child(5) i{
+	background-image: url('../../image/ico-share.png');
+}
+nav > div:nth-child(6) i{
+	background-image: url('../../image/ico-star.png');
+}
+nav > div:nth-child(7) i{
+	background-image: url('../../image/ico-star.png');
+}
+nav > div:nth-child(8) i{
+	background-image: url('../../image/ico-count.png');
 }
