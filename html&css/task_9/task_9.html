@@ -33,24 +33,131 @@
 					</div>
 				</div>
 				<div>
-					<i></i>个人报表
+					<i></i><span>个人报表</span>
+					<ul class="report">
+						<li>
+							<i></i><span>文件一</span>
+						</li>
+						<li>
+							<i></i><span>文件二</span>
+							<ul class="file">
+								<li><i></i><span>文档1</span></li>
+								<li><i></i><span>文档2</span></li>
+							</ul>
+						</li>
+						<li>
+							<i></i><span>文件三</span>
+						</li>
+					</ul>
 				</div>
 				<div>
-					<i></i>个人收藏
+					<i></i><span>个人收藏</span>
 				</div>
 				<div>
-					<i></i>我的分享
+					<i></i><span>我的分享</span>
 				</div>
 				<div>
-					<i></i>图库
+					<i></i><span>图库</span>
 				</div>
 				<div>
-					<i></i>成长记录
+					<i></i><span>成长记录</span>
 				</div>
 				<div>
-					<i></i>账户信息
+					<i></i><span>账户信息</span>
 				</div>
 			</nav>
+			<div class="container">
+				<div class="in-container">
+					<div class="bread">
+						<span>C站</span>
+						<span class="cut">/</span>
+						<span>个人报表</span>
+						<span class="cut">/</span>
+						<span>文件一</span>
+						<span class="cut">/</span>
+						<span class="last_bread">文档一</span>
+					</div>
+					<div class="inquire">
+						<form class="list">
+							<div class="first-item">
+								<label for="item">查询项</label>
+								<select id="item" name="check">
+									<option value="first">第一项</option>
+								</select>
+							</div>
+							<div class="second-item">
+								<div>
+									<label for="buyrt">买方</label>
+									<select id="buyrt" name="buyrt">
+										<option value="xa">小A</option>
+									</select>
+								</div>
+								<div>
+									<label for="mf">卖方</label>
+									<select id="mf" name="mf">
+										<option value="xa">小C</option>
+									</select>
+								</div>
+							</div>
+							<img src="../../image/search-change.png" alt="pic">
+							<div class="last-item">
+								<div class="top-item">
+									<label for="date">日期</label>
+									<input type="text" id="date" name="date" value="2016-04-01">
+									<label for="long_time">总耗时</label>
+									<select id="long_time" name="long_time">
+										<option value="8t">8天</option>
+									</select>
+								</div>
+								<div class="bottom-item">
+									<label for="people">人数</label>
+									<select id="people" name="people">
+										<option value="10人">8天</option>
+									</select>
+									<label for="item_suc">成交项</label>
+									<select id="item_suc" name="item_suc">
+										<option value="10x">10项</option>
+									</select>
+								</div>
+							</div>
+							<div class="button-div">
+								<button class="button">搜索</button>
+							</div>
+						</form>
+					</div>
+					<div class="time_money">
+						<div class="to-left"></div>
+						<div class="info">
+							<p class="time">10:00 am</p>
+							<p class="money">￥1200</p>
+						</div>
+						<div class="info del-b-t">
+							<p class="time">11:00 am</p>
+							<p class="money">￥1300</p>
+						</div>
+						<div class="info del-b-t">
+							<p class="time">12:00 am</p>
+							<p class="money">￥1200</p>
+						</div>
+						<div class="info del-b-t">
+							<p class="time">01:00 pm</p>
+							<p class="money">￥1400</p>
+						</div>
+						<div class="info del-b-t">
+							<p class="time">02:00 pm</p>
+							<p class="money">￥1500</p>
+						</div>
+						<div class="info del-b-t">
+							<p class="time">03:00 pm</p>
+							<p class="money">￥1800</p>
+						</div>
+						<div class="to-right"></div>
+						<div class="histroy">
+							<img src="../../image/search-ico.png" alt="pic">历史查询
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
